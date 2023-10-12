@@ -6,7 +6,8 @@ const fileUpload = require('express-fileupload')
 const cookieParser = require('cookie-parser')
 const path = require('path')
 
-
+const hostname=0.0.0.0;
+const port=3000
 const app = express()
 app.use(express.json())
 app.use(cookieParser())
